@@ -1,24 +1,27 @@
-# ablelabsinc
+# Dixit Scoreboard
 
-## Project setup
-```
-npm install
-```
+Vue 3를 사용하여 Dixit 보드게임 점수판을 구현한 프로젝트입니다.  
+본 애플리케이션은 4명의 플레이어 점수를 손쉽게 입력하고 계산하여, 승리 조건 달성 시 알림을 제공하는 기능을 포함합니다. 또한 모바일 웹 환경에 최적화되어 있습니다.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 개요
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Dixit은 추상적인 이미지 카드와 창의적인 스토리텔링을 통해 즐기는 보드게임입니다.  
+이 프로젝트는 Dixit의 게임 룰을 바탕으로 점수 계산과 게임 진행을 자동화한 점수판을 구현하였습니다.  
+Vue 3 (Composition API 사용)로 개발되었으며, 모바일 환경에서도 편리하게 사용할 수 있도록 설계되었습니다.
 
-### Lints and fixes files
-```
-npm run lint
-```
+## 특징
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- **플레이어 설정**: 4명의 플레이어 이름 입력 기능.
+- **점수 입력**: 각 라운드별 점수 입력 기능.
+- **자동 계산**: 플레이어별 총점 자동 업데이트.
+- **승리 조건**: 설정 가능한 최소 점수 도달 시 게임 종료 알림과 페이지 새로고침.
+- **Firebase 배포**: Firebase Hosting을 통해 배포됨.
+
+## 설치
+1. **리포지토리 클론:**
+   ```bash
+   git clone https://github.com/yeochan-UL/dixit.git
+   cd dixit
+2. **프로젝트 실행:**
+   ```bash
+   npm run serve
